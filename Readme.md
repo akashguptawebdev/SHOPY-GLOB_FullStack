@@ -65,7 +65,7 @@ ShoopyGlob is a full-featured e-commerce application that allows users to explor
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/shoopyglob.git
+   git clone https://github.com/akashguptawebdev/SHOPY-GLOB_FullStack
    cd shoopyglob/backend
    ```
 
@@ -169,8 +169,8 @@ This project is licensed under the MIT License.
 
 You can access the deployed application here:
 
-- **Frontend**: [ShoopyGlob Frontend](https://yourfrontend.vercel.app)
-- **Backend**: [ShoopyGlob Backend](https://yourbackend.onrender.com)
+- **Frontend**: [ShoopyGlob Frontend](https://shopy-glob-full-stack.vercel.app/)
+- **Backend**: [ShoopyGlob Backend](https://shopy-glob-fullstack-1.onrender.com)
 
 ---
 

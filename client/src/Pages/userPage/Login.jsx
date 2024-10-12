@@ -29,7 +29,7 @@ const Login = () => {
         }
       );
 
-      if (response?.data?.success) {
+      if (response) {
         dispatch(setAuthenticate(true)); // Set authentication to true
       }
 
