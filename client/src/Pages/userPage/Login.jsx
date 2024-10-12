@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import PersonIcon from "@mui/icons-material/Person";
 import HttpsIcon from "@mui/icons-material/Https";
 import { useDispatch } from "react-redux";
-import { setAuthenticate, storeUser } from "../../utils/Redux/userSlice/userSlice.js"; // Ensure correct path
+import { setAuthenticate, storeUser } from "../../utils/Redux/userSlice/UserSlice.js"; // Ensure correct path
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -29,7 +29,7 @@ const Login = () => {
       const response = await axios.post(
         `${baseApiUrl}/api/v1/user/login`,
         { email, password },
-        {
+        {withCredentials:true,
           headers: { "Content-Type": "application/json" },
         }
       );

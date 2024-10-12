@@ -20,6 +20,8 @@ app.use(bodyParser.json())
 app.use(express.urlencoded({ extended: false })); // Helps to parse form data
 app.use(cookieParser())
 // CORS configuration to allow requests from specific origins
+
+// frontend := https://shopy-glob-full-stack.vercel.app
 const corsOptions = {
   origin: 'https://shopy-glob-full-stack.vercel.app', // The front-end URL
   credentials: true, // Allow credentials (cookies, authorization headers, etc.)

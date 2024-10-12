@@ -170,7 +170,8 @@ export default function PrimarySearchAppBar() {
                     className="rounded-full object-cover w-8 h-8"
                   />
                 ) : (
-                  <PersonIcon />
+                  // <PersonIcon />
+                  ""
                 )}
               </div>
               ) : (
@@ -277,7 +278,8 @@ export default function PrimarySearchAppBar() {
                           className="rounded-full object-cover w-8 h-8"
                         />
                       ) : (
-                        <PersonIcon />
+                        // <PersonIcon /> 
+                        ""
                       )}
                     </div>
                   ) : (
